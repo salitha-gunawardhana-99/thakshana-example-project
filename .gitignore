@@ -1,0 +1,13 @@
+# Ignore target directory where compiled files are stored
+/target/
+
+# Ignore generated Cargo.lock file (if library project)
+/Cargo.lock
+
+# Ignore build artifacts and temporary files
+**/*.rs.bk
+*.swp
+*.bak
+
+# Ignore Docker-related files
+docker-compose.override.yml
